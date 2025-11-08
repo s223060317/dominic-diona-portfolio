@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diona Dominic | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #0f0f0f;
+            color: #f0f0f0;
+            line-height: 1.7;
+        }
+
+        header {
+            background: linear-gradient(to right, #1e1e2f, #2c2c3c);
+            text-align: center;
+            padding: 3rem 1rem;
+            border-bottom: 2px solid #444;
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            color: #61dafb;
+        }
+
+        header p {
+            margin-top: 0.7rem;
+            font-size: 1.2rem;
+            color: #ccc;
+        }
+
+        nav {
+            background: #1a1a1a;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        nav a {
+            margin: 0 1.2rem;
+            color: #61dafb;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+
+        nav a:hover {
+            color: #ffa726;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: auto;
+            padding: 2rem 0;
+        }
+
+        .card {
+            background: #1c1c1c;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+        }
+
+        .card h2 {
+            color: #61dafb;
+            margin-bottom: 1rem;
+        }
+
+        .card h3 {
+            color: #ffcc80;
+            margin-bottom: 0.5rem;
+        }
+
+        .card img {
+            max-width: 100%;
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+            margin-top: 1rem;
+            border: 1px solid #333;
+        }
+
+        footer {
+            text-align: center;
+            background: #1e1e1e;
+            color: #aaa;
+            padding: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Diona Dominic</h1>
+        <p>UI/UX Designer | Front-End Developer | Data Enthusiast</p>
+    </header>
+
+    <nav>
+        <a href="#guardian">Guardian Monitor</a>
+        <a href="#airtable">Airtable</a>
+        <a href="#excel">Excel</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="guardian" class="card">
+            <h2>👵 Guardian Monitor – Aged Care App</h2>
+            <h3>UI + Code + Admin Dashboard</h3>
+            <p>
+                Worked on the Capstone project "Guardian Monitor" for Gopher Industries. Designed 10+ screens in Figma
+                tailored for aged care doctors, implemented using Jetpack Compose in Android Studio. Additionally,
+                developed a React-based admin dashboard for organizational use, allowing secure login, staff-patient
+                assignments, and dashboard insights.
+            </p>
+            <img src="images/guardian-all-screens.png" alt="Figma UI Screens">
+            <img src="images/guardian-code-collage.png" alt="Jetpack Compose Code">
+            <img src="images/admin-dashboard.png" alt="Admin Dashboard">
+        </section>
+
+        <section id="airtable" class="card">
+            <h2>🌱 Airtable System – Geelong Gardens for Wildlife</h2>
+            <h3>Internship Project + Real Impact</h3>
+            <p>
+                Built structured Airtable workflows for the City of Greater Geelong's GG4W program. Included dashboards,
+                forms, automations, and interfaces to track garden visits, manage volunteer schedules, and collect
+                community feedback. Worked collaboratively with teammates during the Deakin FreelancingHUB internship.
+            </p>
+            <img src="images/gg4w-airtable-collage.png" alt="Airtable Interfaces">
+            <img src="images/intern-photo.jpg" alt="Team Internship Photo">
+        </section>
+
+        <section id="excel" class="card">
+            <h2>📊 Excel Dashboard – CKD Risk Assignment</h2>
+            <h3>MIS171 Business Analytics</h3>
+            <p>
+                Designed an Excel dashboard to visualize CKD risk insights using slicers, pivot tables, and conditional
+                formatting. Delivered to Deakin University Hospital as part of my MIS171 coursework, enabling analysis
+                of risk by location, age, diabetes status, and biomarkers.
+            </p>
+            <img src="images/ckd-risk-dashboard.png" alt="CKD Excel Dashboard">
+        </section>
+
+        <section id="contact" class="card">
+            <h2>📬 Contact Me</h2>
+            <p>Email: dominicdiona@gmail.com</p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/diona-dominic"
+                    target="_blank">linkedin.com/in/diona-dominic</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2025 Diona Dominic | Portfolio</p>
+    </footer>
+</body>
+
+</html>

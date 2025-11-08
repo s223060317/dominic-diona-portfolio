@@ -1,0 +1,115 @@
+/* Reset & base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #0f0f0f;
+  color: #f0f0f0;
+  line-height: 1.7;
+}
+
+/* Header */
+header {
+  background: linear-gradient(to right, #1e1e2f, #2c2c3c);
+  text-align: center;
+  padding: 3rem 1rem;
+  border-bottom: 2px solid #444;
+}
+
+header h1 {
+  font-size: 2.8rem;
+  color: #61dafb;
+}
+
+header p {
+  margin-top: 0.7rem;
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+/* Navigation */
+nav {
+  background: #1a1a1a;
+  text-align: center;
+  padding: 1rem;
+}
+
+nav a {
+  margin: 0 1.2rem;
+  color: #61dafb;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffa726;
+}
+
+/* Layout */
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem 0;
+}
+
+/* Cards / Sections */
+.card {
+  background: #1c1c1c;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.card h2 {
+  color: #61dafb;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  color: #ffcc80;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #ddd;
+}
+
+/* Images */
+.card img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.2rem;
+  max-width: 100%;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+  border: 1px solid #333;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Optional: Image caption style */
+.image-caption {
+  text-align: center;
+  font-size: 0.95rem;
+  color: #ccc;
+  margin-top: 0.6rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #1e1e1e;
+  color: #aaa;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
